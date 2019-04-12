@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d5b6e4;
+  background: #a1a140;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2702,9 +2702,6 @@ body {
   -ms-background-size: cover;
 /*这是设置底部文字, 看个人需要修改*/
 }
-body #footer > div > div {
-  color: #eee;
-}
 .headband {
   height: 1.5px;
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
@@ -2754,7 +2751,7 @@ body #footer > div > div {
   letter-spacing: 0;
   padding-bottom: 3px;
   font-weight: normal;
-  font-style: oblique;
+  font-style: normal;
   color: rgba(255,255,255,0.6);
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -2842,6 +2839,9 @@ body #footer > div > div {
 }
 .pagination .space {
   color: #fff;
+}
+.footer {
+  color: rgba(255,255,255,0.9);
 }
 .posts-expand .post-tags a {
   border-bottom: none;
@@ -3085,7 +3085,7 @@ img:hover {
 }
 .posts-collapse .post-title a {
   color: #5073b8;
-  margin-left: 20px;
+  margin-left: -35px;
 }
 .posts-collapse .post-title a:hover {
   color: #a166ab;
@@ -3112,24 +3112,19 @@ img:hover {
   padding-bottom: 5px;
   box-shadow: none;
 }
-.post-type-archive {
-  margin: 0 !important;
-  padding: 0px 36px 5px 36px;
-  background-color: #fff;
-  box-shadow: none;
+.posts-collapse .post h2,
+h3,
+h4,
+h5,
+h6 {
+  border-left: 0 solid #a166ab;
+  margin-left: 0;
+  padding-left: 0;
 }
-@media (max-width: 767px) {
-  .post-type-archive {
-    padding: 5px 10px 5px 10px !important;
-  }
-}
-.posts-collapse .post-header {
-  position: relative;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
-  transition-property: border;
-  border-bottom: 1px dashed #ccc;
+.posts-collapse .post-meta {
+  text-align: center;
+  margin-top: -2px;
+  margin-left: 280px;
 }
 .category-all-page {
   margin: -80px 50px 40px 50px;
@@ -3163,4 +3158,33 @@ img:hover {
     margin: -73px 15px 50px 15px;
     padding: 86px 5px 36px 5px;
   }
+}
+blockquote.question {
+  color: #555;
+  border-left: 4px solid #1098ad;
+  background-color: #e3f2fd;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 20px;
+}
+span#inline-toc {
+  display: inline-block;
+  border-radius: 80% 100% 90% 20%;
+  background-color: #e3f2fd;
+  color: #555;
+  padding: 0.05em 0.4em;
+  margin: 2px 5px 2px 0px;
+  line-height: 1.5;
+}
+img.img-topic {
+  width: 100%;
+}
+p.description {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+}
+code.description {
+  padding: 1px 1px 1px 1px;
+  margin: 0px 1px 0px 4px;
 }
