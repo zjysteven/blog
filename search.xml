@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Toy Post]]></title>
     <url>%2Fblog%2Fposts%2F2019%2F04-12-Toy-Post.html</url>
-    <content type="text"><![CDATA[This post is for adjusting my blog theme and presenting some fantastic features of NexT. Code BlockLet’s try some code! 12import numpy as npimport matplotlib.pyplot as plt NoteThis is default note without any style. This is “default” note. This is “primary” note. This is “info” note. This is “success” note. This is “warning” note. This is “danger” note. This is “danger” note without icon. These note blocks are actually built-in features for the latest NexT v7. However, as I uses NexT v5.1.4 as the basic theme, I manually added correponding codes to my custom.styl.]]></content>
+    <content type="text"><![CDATA[This post is for adjusting my blog theme and presenting some fantastic features of NexT. Code Block1. Let’s try some code! 12import numpy as npimport matplotlib.pyplot as plt Note2. Let’s try some note blocks! This is default note without any style. This is “default” note. This is “primary” note. This is “info” note. This is “success” note. This is “warning” note. This is “danger” note. This is “danger” note without icon. Just use note xxxx no-icon to trigger this style. These note blocks are actually built-in features for the latest NexT v7. However, as I uses NexT v5.1.4 as the basic theme, I manually added correponding codes to my custom.styl.]]></content>
       <tags>
         <tag>Hexo</tag>
       </tags>
