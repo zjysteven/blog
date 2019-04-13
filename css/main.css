@@ -1826,7 +1826,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e359a7;
+  background: #37f1ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2988,10 +2988,10 @@ img:hover {
 }
 .site-description {
   letter-spacing: 5px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   margin-top: 15px;
-  margin-left: 13px;
+  margin-left: 5px;
   color: #f37055;
 }
 .site-state {
@@ -3192,6 +3192,72 @@ span#inline-toc {
 }
 img.img-topic {
   width: 100%;
+}
+.post-body .note {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: initial;
+  border-left: 3px solid #eee;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+.post-body .note:not(.no-icon) {
+  padding-left: 45px;
+}
+.post-body .note:not(.no-icon):before {
+  position: absolute;
+  font-family: FontAwesome;
+  font-size: larger;
+  top: 13px;
+  left: 15px;
+}
+.post-body .note.default {
+  border-left-color: #777;
+}
+.post-body .note.default:not(.no-icon):before {
+  content: "\f0a9";
+  color: #777;
+}
+.post-body .note.warning {
+  background-color: #fdf8ea;
+  border-left-color: #f0ad4e;
+}
+.post-body .note.warning:not(.no-icon):before {
+  content: "\f06a";
+  color: #f0ad4e;
+}
+.post-body .note.info {
+  background-color: #eef7fa;
+  border-left-color: #428bca;
+}
+.post-body .note.info:not(.no-icon):before {
+  content: "\f05a";
+  color: #428bca;
+}
+.post-body .note.primary {
+  background-color: #f5f0fa;
+  border-left-color: #6f42c1;
+}
+.post-body .note.primary:not(.no-icon):before {
+  content: "\f055";
+  color: #6f42c1;
+}
+.post-body .note.success {
+  background-color: #eff8f0;
+  border-left-color: #5cb85c;
+}
+.post-body .note.success:not(.no-icon):before {
+  content: "\f058";
+  color: #5cb85c;
+}
+.post-body .note.danger {
+  background-color: #fcf1f2;
+  border-left-color: #d9534f;
+}
+.post-body .note.danger:not(.no-icon):before {
+  content: "\f056";
+  color: #d9534f;
 }
 p.description {
   text-align: left;

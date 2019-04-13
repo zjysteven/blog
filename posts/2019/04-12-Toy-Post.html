@@ -106,6 +106,8 @@
 
 
 
+  <meta name="keywords" content="Hexo,">
+
 
 
 
@@ -117,17 +119,20 @@
 
 
 
-<meta name="description" content="This post is for adjusting my blog theme. Let’s try some code! 12import numpy as npimport matplotlib.pyplot as plt">
+<meta name="description" content="This post is for adjusting my blog theme and presenting some fantastic features of NexT.">
+<meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Toy Post">
 <meta property="og:url" content="http://zjysteven.github.io/blog/posts/2019/04-12-Toy-Post.html">
 <meta property="og:site_name" content="Jingyang&#39;s Blog">
-<meta property="og:description" content="This post is for adjusting my blog theme. Let’s try some code! 12import numpy as npimport matplotlib.pyplot as plt">
+<meta property="og:description" content="This post is for adjusting my blog theme and presenting some fantastic features of NexT.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-04-11T18:47:55.000Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/zjysteven/blog/images/img/2019/0412-Toy-Post-1.png">
+<meta property="og:updated_time" content="2019-04-13T15:02:19.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Toy Post">
-<meta name="twitter:description" content="This post is for adjusting my blog theme. Let’s try some code! 12import numpy as npimport matplotlib.pyplot as plt">
+<meta name="twitter:description" content="This post is for adjusting my blog theme and presenting some fantastic features of NexT.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/zjysteven/blog/images/img/2019/0412-Toy-Post-1.png">
 
 
 
@@ -336,7 +341,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jingyang">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="顺势而为">
       <meta itemprop="image" content="/blog/images/ironman1.png">
     </span>
 
@@ -358,8 +363,6 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-12T02:46:48+08:00">
                 2019-04-12
@@ -397,7 +400,7 @@
                 
                 
                 <span title="Words count">
-                  21
+                  100
                 </span>
               
 
@@ -422,9 +425,23 @@
       
 
       
-        <p>This post is for adjusting my blog theme.</p>
-<p>Let’s try some code!</p>
+        <p class="description">This post is for adjusting my blog theme and presenting some fantastic features of NexT.</p>
+
+<p><img src="https://raw.githubusercontent.com/zjysteven/blog/images/img/2019/0412-Toy-Post-1.png" alt="note example" style="width:100%"></p>
+<a id="more"></a>
+<hr>
+
+<h2 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h2><p>Let’s try some code!</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><div class="note "><p>This is default note without any style. </p></div>
+<div class="note default"><p>This is “default” note. </p></div>
+<div class="note primary"><p>This is “primary” note. </p></div>
+<div class="note info"><p>This is “info” note. </p></div>
+<div class="note success"><p>This is “success” note. </p></div>
+<div class="note warning"><p>This is “warning” note. </p></div>
+<div class="note danger"><p>This is “danger” note. </p></div>
+<div class="note danger no-icon"><p>This is “danger” note without icon. </p></div>
+<p>These note blocks are actually built-in features for the latest <a href="https://theme-next.org/docs/tag-plugins/note#No-icon-note" target="_blank" rel="noopener">NexT v7</a>. However, as I uses NexT v5.1.4 as the basic theme, I manually added correponding codes to my <code>custom.styl</code>.</p>
 
       
     </div>
@@ -457,6 +474,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/Hexo/" rel="tag"># Hexo</a>
+          
+        </div>
       
 
       
@@ -529,15 +552,24 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/blog/images/ironman1.png" alt="Jingyang">
             
               <p class="site-author-name" itemprop="name">Jingyang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">顺势而为</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -596,15 +628,15 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://twitter.com/yourname" target="_blank" title="Twitter">
-                      
-                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
                     <a href="https://www.facebook.com/yourname" target="_blank" title="Facebook">
                       
                         <i class="fa fa-fw fa-facebook"></i>Facebook</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://twitter.com/yourname" target="_blank" title="Twitter">
+                      
+                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
                   </span>
                 
             </div>
@@ -621,6 +653,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Code-Block"><span class="nav-number">1.</span> <span class="nav-text">Code Block</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Note"><span class="nav-number">2.</span> <span class="nav-text">Note</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -652,7 +700,7 @@
     
     
     <span title="Words total count">
-      105</span>
+      184</span>
   
 </div>
 

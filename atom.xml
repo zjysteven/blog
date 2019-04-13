@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://zjysteven.github.io/blog/"/>
-  <updated>2019-04-11T18:47:55.000Z</updated>
+  <updated>2019-04-13T15:02:19.000Z</updated>
   <id>http://zjysteven.github.io/blog/</id>
   
   <author>
@@ -21,21 +21,20 @@
     <link href="http://zjysteven.github.io/blog/posts/2019/04-12-Toy-Post.html"/>
     <id>http://zjysteven.github.io/blog/posts/2019/04-12-Toy-Post.html</id>
     <published>2019-04-11T18:46:48.000Z</published>
-    <updated>2019-04-11T18:47:55.000Z</updated>
+    <updated>2019-04-13T15:02:19.000Z</updated>
     
-    <content type="html"><![CDATA[<p>This post is for adjusting my blog theme.</p><p>Let’s try some code!</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p class="description">This post is for adjusting my blog theme and presenting some fantastic features of NexT.</p><p><img src="https://raw.githubusercontent.com/zjysteven/blog/images/img/2019/0412-Toy-Post-1.png" alt="note example" style="width:100%"></p><a id="more"></a><hr><h2 id="Code-Block"><a href="#Code-Block" class="headerlink" title="Code Block"></a>Code Block</h2><p>Let’s try some code!</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br></pre></td></tr></table></figure><h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><div class="note "><p>This is default note without any style. </p></div><div class="note default"><p>This is “default” note. </p></div><div class="note primary"><p>This is “primary” note. </p></div><div class="note info"><p>This is “info” note. </p></div><div class="note success"><p>This is “success” note. </p></div><div class="note warning"><p>This is “warning” note. </p></div><div class="note danger"><p>This is “danger” note. </p></div><div class="note danger no-icon"><p>This is “danger” note without icon. </p></div><p>These note blocks are actually built-in features for the latest <a href="https://theme-next.org/docs/tag-plugins/note#No-icon-note" target="_blank" rel="noopener">NexT v7</a>. However, as I uses NexT v5.1.4 as the basic theme, I manually added correponding codes to my <code>custom.styl</code>.</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;This post is for adjusting my blog theme.&lt;/p&gt;
-&lt;p&gt;Let’s try some code!&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;
-      
+      &lt;p class=&quot;description&quot;&gt;This post is for adjusting my blog theme and presenting some fantastic features of NexT.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/zjysteven/blog/images/img/2019/0412-Toy-Post-1.png&quot; alt=&quot;note example&quot; style=&quot;width:100%&quot;&gt;&lt;/p&gt;
     
     </summary>
     
+    
+      <category term="Hexo" scheme="http://zjysteven.github.io/blog/tags/Hexo/"/>
     
   </entry>
   
