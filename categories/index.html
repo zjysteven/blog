@@ -109,8 +109,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/blog/atom.xml" title="Jingyang's Blog" type="application/atom+xml">
 
@@ -121,14 +119,14 @@
 
 <meta name="description" content="顺势而为">
 <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
+<meta property="og:title" content="Categories">
 <meta property="og:url" content="http://zjysteven.github.io/blog/categories/index.html">
 <meta property="og:site_name" content="Jingyang&#39;s Blog">
 <meta property="og:description" content="顺势而为">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-04-11T18:35:07.000Z">
+<meta property="og:updated_time" content="2019-04-13T08:46:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="Categories">
 <meta name="twitter:description" content="顺势而为">
 
 
@@ -165,7 +163,7 @@
 
 
 
-  <title>categories | Jingyang's Blog</title>
+  <title>Categories | Jingyang's Blog</title>
   
 
 
@@ -327,7 +325,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">categories</h2>
+	<h2 class="post-title" itemprop="name headline">Categories</h2>
 
 
 
@@ -339,6 +337,7 @@
       <div class="post-body">
         
         
+          <div class="category-post-title">Categories</div>  
           <div class="category-all-page">
             <div class="category-all-title">
                 1 category in total
@@ -347,6 +346,7 @@
               <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Tools/">Tools</a><span class="category-list-count">1</span></li></ul>
             </div>
           </div>
+        
         
       </div>
       
@@ -1067,13 +1067,13 @@
       var articles = db.collection('articles')
 
       //https://hexo.io/zh-tw/docs/variables.html
-      var isPost = 'categories'.length > 0
+      var isPost = 'Categories'.length > 0
       var isArchive = '' === 'true'
       var isCategory = ''.length > 0
       var isTag = ''.length > 0
 
       if (isPost) { //is article page
-        var title = 'categories'
+        var title = 'Categories'
         var doc = articles.doc(title)
 
         getCount(doc, true).then(appendCountTo($('.post-meta')))

@@ -109,6 +109,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/blog/atom.xml" title="Jingyang's Blog" type="application/atom+xml">
 
@@ -117,17 +119,17 @@
 
 
 
-<meta name="description" content="顺势而为">
+<meta name="description" content="Hello! lalalalalal">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Tags">
-<meta property="og:url" content="http://zjysteven.github.io/blog/tags/index.html">
+<meta property="og:title" content="About">
+<meta property="og:url" content="http://zjysteven.github.io/blog/about/index.html">
 <meta property="og:site_name" content="Jingyang&#39;s Blog">
-<meta property="og:description" content="顺势而为">
+<meta property="og:description" content="Hello! lalalalalal">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-04-13T08:46:28.000Z">
+<meta property="og:updated_time" content="2019-04-13T09:57:16.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="顺势而为">
+<meta name="twitter:title" content="About">
+<meta name="twitter:description" content="Hello! lalalalalal">
 
 
 
@@ -157,13 +159,13 @@
 
 
 
-  <link rel="canonical" href="http://zjysteven.github.io/blog/tags/">
+  <link rel="canonical" href="http://zjysteven.github.io/blog/about/">
 
 
 
 
 
-  <title>Tags | Jingyang's Blog</title>
+  <title>About | Jingyang's Blog</title>
   
 
 
@@ -325,7 +327,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">Tags</h2>
+	<h2 class="post-title" itemprop="name headline">About</h2>
 
 
 
@@ -337,14 +339,10 @@
       <div class="post-body">
         
         
-          <div class="tag-post-title">Tags</div>  
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                1 tag in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/blog/tags/Hexo/" style="font-size: 12px; color: #ccc">Hexo</a>
-            </div>
+          <div class="about-post-title">About</div>  
+          <div class="about-page">
+            <p>Hello! lalalalalal</p>
+
           </div>
         
       </div>
@@ -1066,13 +1064,13 @@
       var articles = db.collection('articles')
 
       //https://hexo.io/zh-tw/docs/variables.html
-      var isPost = 'Tags'.length > 0
+      var isPost = 'About'.length > 0
       var isArchive = '' === 'true'
       var isCategory = ''.length > 0
       var isTag = ''.length > 0
 
       if (isPost) { //is article page
-        var title = 'Tags'
+        var title = 'About'
         var doc = articles.doc(title)
 
         getCount(doc, true).then(appendCountTo($('.post-meta')))

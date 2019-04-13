@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zjysteven.github.io/blog/about/index.html</loc>
+    
+    <lastmod>2019-04-13T09:57:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zjysteven.github.io/blog/tags/index.html</loc>
+    
+    <lastmod>2019-04-13T08:46:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zjysteven.github.io/blog/categories/index.html</loc>
+    
+    <lastmod>2019-04-13T08:46:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zjysteven.github.io/blog/posts/2019/04-12-hello-world.html</loc>
     
     <lastmod>2019-04-12T17:36:24.000Z</lastmod>
@@ -12,20 +33,6 @@
     <loc>http://zjysteven.github.io/blog/posts/2019/04-12-Toy-Post.html</loc>
     
     <lastmod>2019-04-11T18:47:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zjysteven.github.io/blog/categories/index.html</loc>
-    
-    <lastmod>2019-04-11T18:35:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zjysteven.github.io/blog/tags/index.html</loc>
-    
-    <lastmod>2019-04-11T17:27:43.000Z</lastmod>
     
   </url>
   
