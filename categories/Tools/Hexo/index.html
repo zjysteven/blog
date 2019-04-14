@@ -119,14 +119,13 @@
 
 <meta name="description" content="顺势而为">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Categories">
-<meta property="og:url" content="http://zjysteven.github.io/blog/categories/index.html">
+<meta property="og:title" content="Jingyang&#39;s Blog">
+<meta property="og:url" content="http://zjysteven.github.io/blog/categories/Tools/Hexo/index.html">
 <meta property="og:site_name" content="Jingyang&#39;s Blog">
 <meta property="og:description" content="顺势而为">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-04-13T08:46:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Categories">
+<meta name="twitter:title" content="Jingyang&#39;s Blog">
 <meta name="twitter:description" content="顺势而为">
 
 
@@ -157,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="http://zjysteven.github.io/blog/categories/">
+  <link rel="canonical" href="http://zjysteven.github.io/blog/categories/Tools/Hexo/">
 
 
 
 
 
-  <title>Categories | Jingyang's Blog</title>
+  <title>Category: Hexo | Jingyang's Blog</title>
   
 
 
@@ -182,7 +181,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -318,56 +317,86 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-    
-    
-    <div class="post-block page">
-      <header class="post-header">
+  
+  
+  
+  <div class="post-block category">
 
-	<h2 class="post-title" itemprop="name headline">Categories</h2>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-        
-        
-          <div class="category-post-title">Categories</div>  
-          <div class="category-all-page">
-            <div class="category-all-title">
-                2 categories in total
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Tools/">Tools</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Tools/Hexo/">Hexo</a><span class="category-list-count">2</span></li></ul></li></ul>
-            </div>
-          </div>
-        
-        
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h2>Hexo<small>Category</small>
+        </h2>
       </div>
+
       
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+            <a class="post-title-link" href="/blog/posts/2019/04-12-Toy-Post.html" itemprop="url">
+              
+                <span itemprop="name">Awesome Features Presented by NexT</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-04-12T02:46:48+08:00" content="2019-04-12">
+          04-12
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
       
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+            <a class="post-title-link" href="/blog/posts/2019/04-12-hello-world.html" itemprop="url">
+              
+                <span itemprop="name">Hello World</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-04-12T01:13:02+08:00" content="2019-04-12">
+          04-12
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
       
     </div>
-    
-    
-    
+
   </div>
-
-
-          </div>
-          
-
-
-          
+  
+  
+  
 
   
 
 
+
+          </div>
+          
+
+
+          
 
         </div>
         
@@ -629,10 +658,6 @@
   
 
   
-  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
-
-
 
   
 
@@ -1067,13 +1092,13 @@
       var articles = db.collection('articles')
 
       //https://hexo.io/zh-tw/docs/variables.html
-      var isPost = 'Categories'.length > 0
+      var isPost = ''.length > 0
       var isArchive = '' === 'true'
       var isCategory = ''.length > 0
       var isTag = ''.length > 0
 
       if (isPost) { //is article page
-        var title = 'Categories'
+        var title = ''
         var doc = articles.doc(title)
 
         getCount(doc, true).then(appendCountTo($('.post-meta')))
@@ -1081,7 +1106,7 @@
       else if (!isArchive && !isCategory && !isTag) { //is index page
         var titles = [] //array to titles
 
-        var postsstr = '' //if you have a better way to get titles of posts, please change it
+        var postsstr = 'titles.push("Awesome Features Presented by NexT");titles.push("Hello World");' //if you have a better way to get titles of posts, please change it
         eval(postsstr)
 
         var promises = titles.map(function (title) {

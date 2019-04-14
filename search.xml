@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Toy Post]]></title>
+    <title><![CDATA[Awesome Features Presented by NexT]]></title>
     <url>%2Fblog%2Fposts%2F2019%2F04-12-Toy-Post.html</url>
-    <content type="text"><![CDATA[This post is for adjusting my blog theme and presenting some fantastic features of NexT. Code Block1. Let’s try some code! 12import numpy as npimport matplotlib.pyplot as plt Note2. Let’s try some note blocks! This is default note without any style. This is “default” note. This is “primary” note. This is “info” note. This is “success” note. This is “warning” note. This is “danger” note. This is “danger” note without icon. Just use note xxxx no-icon to trigger this style. These note blocks are actually built-in features for the latest NexT v7. However, as I uses NexT v5.1.4 as the basic theme, I manually added correponding codes to my custom.styl.]]></content>
+    <content type="text"><![CDATA[This post shows some fantastic features of NexT. It also serves as a documentation for me on how to use these features. Diff within the Code Block123import numpy as np- from Images import PIL+ import matplotlib.pyplot as plt Blockquote1&lt;blockquote class="question"&gt;Quoted content is here!&lt;/blockquote&gt; Quoted content is here! Inline-toc12&lt;span class="inline-toc"&gt;1.&lt;/span&gt; First line.&lt;span class="inline-toc"&gt;2.&lt;/span&gt; Second line. 1. First line. 2. Second line. TagsNote Tags123&#123;% note %&#125;This is default note without any style. &#123;% endnote %&#125; This is default note without any style. 123&#123;% note default %&#125;This is "default" note. &#123;% endnote %&#125; This is “default” note. 123&#123;% note primary %&#125;This is "primary" note. &#123;% endnote %&#125; This is “primary” note. 123&#123;% note info %&#125;This is "info" note. &#123;% endnote %&#125; This is “info” note. 123&#123;% note success %&#125;This is "success" note. &#123;% endnote %&#125; This is “success” note. 123&#123;% note warning %&#125;This is "warning" note. &#123;% endnote %&#125; This is “warning” note. 123&#123;% note danger %&#125;This is "danger" note. &#123;% endnote %&#125; This is “danger” note. 123&#123;% note danger no-icon %&#125;This is &quot;danger&quot; note without icon. Just use `note xxxx no-icon` to trigger this style.&#123;% endnote %&#125; This is “danger” note without icon. Just use note xxxx no-icon to trigger this style. Label Tags1&#123;% label default@This is default label %&#125; This is default label 1&#123;% label primary@This is primary label %&#125; This is primary label 1&#123;% label info@This is info label %&#125; This is info label 1&#123;% label success@This is success label %&#125; This is success label 1&#123;% label warning@This is warning label %&#125; This is warning label 1&#123;% label danger@This is danger label %&#125; This is danger label. Tab Tags1234567891011&#123;% tabs First unique name %&#125;&lt;!-- tab --&gt;**This is Tab 1.**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**This is Tab 2.**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**This is Tab 3.**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; First unique name 1First unique name 2First unique name 3This is Tab 1. This is Tab 2. This is Tab 3. 1234567891011&#123;% tabs Second unique name %&#125;&lt;!-- tab Solution 1 --&gt;**This is Tab 1.**&lt;!-- endtab --&gt;&lt;!-- tab Solution 2 --&gt;**This is Tab 2.**&lt;!-- endtab --&gt;&lt;!-- tab Solution 3 --&gt;**This is Tab 3.**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; Solution 1Solution 2Solution 3This is Tab 1. This is Tab 2. This is Tab 3. For more information, please refer to NexT doc. References 1. NexT Documentation]]></content>
+      <categories>
+        <category>Tools</category>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
   <entry>
@@ -14,9 +19,11 @@
     <content type="text"><![CDATA[This post marked the birth of each blog built with Hexo! Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
         <category>Tools</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
+        <tag>NexT</tag>
       </tags>
   </entry>
 </search>

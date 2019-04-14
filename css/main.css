@@ -882,6 +882,9 @@ pre .javascript .function {
   border-top: 3px solid transparent;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
 }
 @media (max-width: 413px) {
   .post-body .tabs ul.nav-tabs li.tab {
@@ -1646,13 +1649,6 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
-.post-copyright {
-  margin: 2em 0 0;
-  padding: 0.5em 1em;
-  border-left: 3px solid #ff1700;
-  background-color: #f9f9f9;
-  list-style: none;
-}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1826,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffaf4b;
+  background: #ffffe3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2843,6 +2839,10 @@ body {
 .footer {
   color: rgba(255,255,255,0.9);
 }
+.posts-expand .post-tags {
+  margin-top: 15px;
+  text-align: center;
+}
 .posts-expand .post-tags a {
   border-bottom: none;
   margin-right: 0px;
@@ -2886,7 +2886,7 @@ a:hover {
 hr {
   margin: 10px 0px 30px 0px;
 }
-.post-body h2,
+.posts-expand .post-body h2,
 h3,
 h4,
 h5,
@@ -3113,10 +3113,10 @@ img:hover {
   box-shadow: none;
 }
 .posts-collapse .post h2,
-h3,
-h4,
-h5,
-h6 {
+.posts-collapse h3,
+.posts-collapse h4,
+.posts-collapse h5,
+.posts-collapse h6 {
   border-left: 0 solid #a166ab;
   margin-left: 0;
   padding-left: 0;
@@ -3158,14 +3158,14 @@ h6 {
   margin-bottom: 0px;
   margin-top: -10px;
 }
+.tag-cloud-title {
+  margin-bottom: 15px;
+  color: #000;
+}
 .tag-cloud {
   margin: -80px 50px 40px 50px;
   background-color: #fff;
   padding: 86px 36px 36px 36px;
-}
-.tag-cloud-title {
-  margin-bottom: 15px;
-  color: #000;
 }
 @media (max-width: 767px) {
   .tag-cloud {
@@ -3259,6 +3259,14 @@ img.img-topic {
   content: "\f056";
   color: #d9534f;
 }
+.post-body .note.reference {
+  background-color: #f5f0fa;
+  border-left-color: #6f42c1;
+}
+.post-body .note.reference:not(.no-icon):before {
+  content: "\f02d";
+  color: #6f42c1;
+}
 p.description {
   text-align: left;
   font-size: 14px;
@@ -3298,4 +3306,13 @@ h2.about-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   user-select: none;
+}
+pre .addition {
+  background: #e6ffed;
+}
+pre .deletion {
+  background: #ffe4e1;
+}
+.posts-expand .post-body ul li {
+  list-style: circle;
 }
