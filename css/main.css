@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c6e08a;
+  background: #7aff0f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3287,12 +3287,12 @@ img.img-topic {
   color: #d9534f;
 }
 .post-body .note.reference {
-  background-color: #f5f0fa;
-  border-left-color: #6f42c1;
+  background-color: #eff8f0;
+  border-left-color: #5cb85c;
 }
 .post-body .note.reference:not(.no-icon):before {
   content: "\f02d";
-  color: #6f42c1;
+  color: #5cb85c;
 }
 p.description {
   text-align: left;
